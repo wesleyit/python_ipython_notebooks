@@ -9,9 +9,9 @@ It is a wonderful piece of software, very easy to use and very powerful.
 
 You can write using markdown, Latex and create very nice graphs.
 
-![http://jupyter.org/assets/jupyterpreview.png]
+!(http://jupyter.org/assets/jupyterpreview.png)
 
-![http://i.imgur.com/eo2SqS9.png]
+!(http://i.imgur.com/eo2SqS9.png)
 
 
  Install
@@ -28,7 +28,9 @@ cd python_ipython_notebooks
 
 To stop using, just execute the stop script.
 
-`./stop.sh`
+```
+./stop.sh
+```
 
 Thanks for using :)
 
