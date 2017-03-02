@@ -1,0 +1,8 @@
+ipython[all]
+jupyter
+jupyter_contrib_core
+jupyter_contrib_nbextensions
+matplotlib
+pandas
+seaborn
+
