@@ -1,0 +1,8 @@
+{
+  "argv":
+          ["/home/wesley/iPython/env/bin/python", "-m", "bash_kernel", "-f", "{connection_file}"],
+  "codemirror_mode": "shell",
+  "display_name": "Bash",
+  "env": {"PS1": "$"},
+  "language": "bash"
+}

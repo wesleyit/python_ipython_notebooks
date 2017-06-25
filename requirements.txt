@@ -1,38 +1,19 @@
-docutils
-graphviz
-ipykernel
-ipyparallel
-ipython
-ipython-genutils
-ipywidgets
-Jinja2
+# basic stuff
 jupyter
-jupyter-client
-jupyter-console
-jupyter-contrib-core
 jupyter-contrib-nbextensions
-jupyter-core
-jupyter-highlight-selected-word
-jupyter-latex-envs
-jupyter-nbextensions-configurator
-MarkupSafe
-matplotlib
-nbconvert
-nbformat
-notebook
-numpy
-pandas
-pandocfilters
-PyYAML
-pyzmq
-qtconsole
-requests
-scikit-learn
-scipy
-seaborn
-sklearn
-sklearn-extras
-sklearn-pandas
-Sphinx
-widgetsnbextension
 
+# do some math and work with datasets
+numpy
+scipy
+pandas
+
+# everybody loves graphs
+matplotlib
+seaborn
+
+# smart things
+scikit-learn
+tensorflow
+
+# more kernels
+bash_kernel
