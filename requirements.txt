@@ -18,7 +18,6 @@ graphviz
 statsmodels
 scikit-learn
 scikit-sound
-scikit-video
 scikit-image
 scikit-bio
 tensorflow
