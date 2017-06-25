@@ -40,6 +40,12 @@ else
   echo No, we are offline. Not upgrading PIP modules.
 fi
 
+echo Enabling the Jupyter NBExtensions...
+jupyter contrib nbextension install --sys-prefix &> "$LOG" &&
+jupyter nbextension enable --py --sys-prefix widgetsnbextension &> "$LOG" &&
+echo Extensions enabled. ||
+exit 1
+
 echo Linking the kernel directory...
 desired="$(pwd)/kernels"
 found="$(file env/share/jupyter/kernels | rev | cut -d " " -f 1 | rev)"
@@ -52,12 +58,6 @@ else
   ln -s "$desired" env/share/jupyter/kernels
 fi
 echo done.
-
-echo Enabling the Jupyter NBExtensions...
-jupyter contrib nbextension install --sys-prefix &> "$LOG" &&
-jupyter nbextension enable --py --sys-prefix widgetsnbextension &> "$LOG" &&
-echo Extensions enabled. ||
-exit 1
 
 echo Starting the Jupyter Notebook...
 jupyter notebook $IPYTHON_OPTIONS &> "$LOG" &

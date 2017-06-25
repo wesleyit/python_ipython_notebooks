@@ -65,6 +65,7 @@ Just clone the repo and execute the start script.
 The browser window will open showing the Jupyter screen.
 
 ```
+sudo apt install python3-dev python3-pip python-virtualenv
 git clone https://github.com/wesleyit/python_ipython_notebooks.git iPython
 cd iPython
 ./start.sh
