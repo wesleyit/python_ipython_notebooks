@@ -3,11 +3,15 @@ Jupyter - iPython Notebooks
 
 Hi! I am a Linux user studying statistics and data science.
 
-A few days ago I found Jupyter, the iPython Notebook.
+I just finished a Big Data course and I am in love with Jupyter.
 
 It is a wonderful piece of software, very easy to use and very powerful.
 
-You can write using markdown, Latex and create very nice graphs.
+It is like a web interface to iPython, but you can use it to program
+in other languages like R, Julia, Elixir, Bash and Ruby.
+
+We will focus on Python3, Ruby, Bash and R, but feel free to explore
+and expand your Jupyter after installed.
 
 ![](http://jupyter.org/assets/jupyterpreview.png)
 
@@ -18,19 +22,19 @@ Requirements
 ------------
 
 This setup includes the default Python3 kernel, a R kernel, a Ruby kernel
-and a Bash kernel. But you have to prepare some things before install
+and a Bash kernel. You have to prepare some things before install
 Jupyter.
 
 ### Python3
 
-You will need to have Python 3 previously installed. It is necessary to
+You will need to have Python3 previously installed. It is necessary to
 have the virtualenv and pip packeges installed somehow. You can use
-the operating system Python 3 packages, Anaconda, Pyenv, any of them.
+the operating system Python3 packages, Anaconda, Pyenv, any of them.
 
 ### Bash
 
-You don't need to install additional packages, the `start.sh` script already
-install the bash_kernel using pip.
+You do not need to install additional packages, the `start.sh` script already
+installs the bash_kernel using pip.
 
 ### R
 
@@ -73,7 +77,7 @@ cd iPython
 It will take some minutes in the first time you run, then it will be
 faster.
 
-To stop using, just execute the stop script.
+To stop, just execute the stop script.
 
 ```
 ./stop.sh
