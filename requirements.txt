@@ -1,6 +1,8 @@
 # basic stuff
 jupyter
 jupyter-contrib-nbextensions
+requests
+docutils
 
 # do some math and work with datasets
 numpy
@@ -10,10 +12,23 @@ pandas
 # everybody loves graphs
 matplotlib
 seaborn
+graphviz
 
 # smart things
+statsmodels
 scikit-learn
+scikit-sound
+scikit-video
+scikit-image
+scikit-bio
 tensorflow
+Keras
+mxnet
 
 # more kernels
 bash_kernel
+
+# improve the deployment powers enabling aws cloud and ansible
+boto3
+awscli
+ansible

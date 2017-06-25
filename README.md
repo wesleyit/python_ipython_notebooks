@@ -17,14 +17,16 @@ You can write using markdown, Latex and create very nice graphs.
  Install
 -------
 
-Just clone the repo and execute the start script. 
+Just clone the repo and execute the start script.
 The browser window will open showing the Jupyter screen.
 
 ```
-git clone https://github.com/wesleyit/python_ipython_notebooks.git
-cd python_ipython_notebooks
+git clone https://github.com/wesleyit/python_ipython_notebooks.git iPython
+cd iPython
 ./start.sh
 ```
+It will take some minutes in the first time you run, then it will be
+faster.
 
 To stop using, just execute the stop script.
 
@@ -33,4 +35,3 @@ To stop using, just execute the stop script.
 ```
 
 Thanks for using :)
-
