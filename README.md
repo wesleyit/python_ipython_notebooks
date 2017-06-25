@@ -34,7 +34,8 @@ install the bash_kernel using pip.
 
 ### R
 
-I will assume you already have R installed and running.
+I will assume you already have R installed and running (if not, just do an
+  `sudo apt install r-base libcurl4-openssl-dev libssl-dev`).
 You will need a R console. Install the IRkernel using devtools:
 
 ```r
@@ -47,14 +48,14 @@ devtools::install_github('IRkernel/IRkernel')
 You will need some Ruby packages:
 ```
 sudo apt install libtool libffi-dev ruby ruby-dev make
-gem install cztop
+sudo gem install cztop
 
 sudo apt install git libzmq-dev autoconf pkg-config
 git clone https://github.com/zeromq/czmq
 cd czmq
 ./autogen.sh && ./configure && sudo make && sudo make install
 
-gem install iruby
+sudo gem install iruby
 ```
 
  Install
