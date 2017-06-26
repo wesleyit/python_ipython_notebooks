@@ -17,9 +17,6 @@ graphviz
 # smart things
 statsmodels
 scikit-learn
-scikit-sound
-scikit-image
-scikit-bio
 tensorflow
 Keras
 mxnet

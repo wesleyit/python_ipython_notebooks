@@ -20,7 +20,7 @@ if [ -e ./env/bin/activate ]
 then
   echo Found a valid environment.
 else
-  virtualenv -p /usr/bin/python3 env &&
+  virtualenv -p python3 env &&
   echo Created a new Python Virtual Environment at env. ||
   exit 1
 fi
